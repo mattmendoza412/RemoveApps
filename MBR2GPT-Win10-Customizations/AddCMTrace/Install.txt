@@ -1,0 +1,5 @@
+REM Install CMTrace Log Viewer
+copy "%~dp0CMTrace.exe" "%WINDIR%\system32\CMTrace.exe" /Y > NUL
+REM REG LOAD HKU\Default C:\Users\Default\ntuser.dat
+REM REG IMPORT CMTrace.reg > NUL
+REM REG UNLOAD HKU\Default

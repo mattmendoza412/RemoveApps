@@ -1,0 +1,36 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Log.File]
+"EditFlags"=hex:00,00,00,00
+
+[HKEY_CLASSES_ROOT\Log.File\shell]
+
+[HKEY_CLASSES_ROOT\Log.File\shell\open]
+
+[HKEY_CLASSES_ROOT\Log.File\shell\open\command]
+@="\"C:\\Windows\\System32\\CMTrace.exe\" \"%1\""
+
+[HKEY_CLASSES_ROOT\.lo_]
+@="Log.File"
+
+[HKEY_CLASSES_ROOT\.log]
+@="Log.File"
+
+[HKEY_USERS\DEFAULT\Software\Classes\Log.File]
+"EditFlags"=hex:00,00,00,00
+
+[HKEY_USERS\DEFAULT\Software\Classes\Log.File\shell]
+
+[HKEY_USERS\DEFAULT\Software\Classes\Log.File\shell\open]
+
+[HKEY_USERS\DEFAULT\Software\Classes\Log.File\shell\open\command]
+@="\"C:\\Windows\\System32\\CMTrace.exe\" \"%1\""
+
+[HKEY_USERS\DEFAULT\Software\Classes\.lo_]
+@="Log.File"
+
+[HKEY_USERS\DEFAULT\Software\Classes\.log]
+@="Log.File"
+
+[HKEY_USERS\DEFAULT\Software\Microsoft\Trace32]
+"Register File Types"="1"

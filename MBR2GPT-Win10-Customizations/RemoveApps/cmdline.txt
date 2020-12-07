@@ -1,0 +1,1 @@
+powershell.exe -ExecutionPolicy Bypass -WindowsStyle Hidden -NonInteractive -NoProfile -Command "Copy-Item '%DEPLOYROOT%\Applications\Custom - Remove AppX Apps\Remove*.*' -destination C:\Windows\Temp; C:\Windows\Temp\RemoveApps.ps1; Remove-Item C:\Windows\temp\Remove*.* -Force"
